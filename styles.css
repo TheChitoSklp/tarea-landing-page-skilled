@@ -39,11 +39,12 @@ html {
     border-radius: 28px;
     background: var(--13183F, #13183f);
     color: var(--skilled-white, #fff);
-
     font-size: 16px;
-
     font-weight: 700;
     line-height: 28px;
+  }
+  a:hover {
+    background-color: var(--skilled-blue, #666ca3);
   }
 }
 .container-1 {
@@ -75,6 +76,13 @@ html {
         linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
       );
       margin-left: 16px;
+    }
+    a:hover {
+      background: var(
+        --Gradient-1-Hover,
+        linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%),
+        linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%)
+      );
     }
   }
   .img-info {
@@ -176,6 +184,13 @@ footer {
     font-size: 16px;
     font-weight: 700;
     line-height: 28px;
+  }
+  .footer-btn:hover {
+    background: var(
+      --Gradient-2-Hover,
+      linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%),
+      linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%)
+    );
   }
 }
 @media (min-width: 768px) {
